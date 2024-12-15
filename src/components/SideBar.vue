@@ -1,7 +1,7 @@
 <template>
   <aside :class="`${is_expanded ? 'is-expanded' : ''}`">
     <div class="logo">
-		<img src="../assets/vue.svg" alt="Vue" /> 
+		<img src="../assets/logoxd.png" alt="Vue" /> 
 	</div>
 
 	<div class="menu-toggle-wrap">
@@ -17,16 +17,16 @@
             <span class="text">Home</span>
         </router-link>
         <router-link class="button" to="/about">
-            <span class="material-icons">description</span>
-            <span class="text">About</span>
+            <span class="material-icons">directions_car</span>
+            <span class="text">Estacionamiento</span>
         </router-link>
         <router-link class="button" to="/Perfil">
-            <span class="material-icons">group</span>
-            <span class="text">Team</span>
+            <span class="material-icons">person</span>
+            <span class="text">Perfil</span>
         </router-link>
         <router-link class="button" to="/Reportes">
-            <span class="material-icons">email</span>
-            <span class="text">Contact</span>
+            <span class="material-icons">flag</span>
+            <span class="text">Reportes</span>
         </router-link>
     </div>
 
